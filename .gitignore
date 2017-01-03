@@ -210,4 +210,5 @@ Data/GeoData/*
 .idea/*
 Data/StaticData/*
 
-**/Mvc5Playground.mdf
+Mvc5Playground.mdf
+Mvc5Playground_log.ldf
