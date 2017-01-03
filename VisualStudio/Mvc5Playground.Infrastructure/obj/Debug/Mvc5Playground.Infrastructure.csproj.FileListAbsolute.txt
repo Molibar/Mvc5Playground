@@ -12,3 +12,4 @@ C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj
 C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.pdb
 C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.DepartmentContext_Migrations.InitializeDepartmentContext.resources
 C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.csproj.GenerateResource.Cache
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.DepartmentContext_Migrations.AddedEmployeeHireDate.resources

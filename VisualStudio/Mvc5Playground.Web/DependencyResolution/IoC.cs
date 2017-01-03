@@ -16,9 +16,15 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 
+using System.Data.Entity;
 using System.EnterpriseServices.Internal;
+using System.Web;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
 using Mvc5Playground.Core;
 using Mvc5Playground.Infrastructure.Departments;
+using Mvc5Playground.Web.Models;
 
 namespace Mvc5Playground.Web.DependencyResolution {
     using StructureMap;
@@ -29,6 +35,12 @@ namespace Mvc5Playground.Web.DependencyResolution {
             {
                 c.AddRegistry<DefaultRegistry>();
                 c.For<IDepartmentDataSource>().Use<DepartmentContext>();
+
+
+                // REQUIRED: http://stackoverflow.com/questions/26707450/structuremap-x-asp-net-identity
+                c.For<IUserStore<ApplicationUser>>().Use<UserStore<ApplicationUser>>();
+                c.For<DbContext>().Use(() => new ApplicationDbContext());
+                c.For<IAuthenticationManager>().Use(() => HttpContext.Current.GetOwinContext().Authentication);
             });
             return container;
         }

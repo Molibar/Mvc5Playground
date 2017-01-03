@@ -1,0 +1,27 @@
+﻿@model Mvc5Playground.Core.Department
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>@Model.Name</h2>
+
+@Html.ActionLink("Create an employee", "Create", "Employee", new { DepartmentId = Model.Id }, null)
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th></th>
+    </tr>
+    @foreach (var employee in Model.Employees)
+    {
+        <tr>
+            <td>@employee.Name</td>
+            <td>@Html.ActionLink("Edit", "Edit", "Employee", new {employee.Id}, null)</td>
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("Back to List", "Index", "Home")
+</div>

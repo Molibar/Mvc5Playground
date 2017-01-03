@@ -53,6 +53,10 @@
     <Compile Include="DepartmentContext_Migrations\201701022048547_Initialize-DepartmentContext.Designer.cs">
       <DependentUpon>201701022048547_Initialize-DepartmentContext.cs</DependentUpon>
     </Compile>
+    <Compile Include="DepartmentContext_Migrations\201701031908065_Added-Employee-HireDate.cs" />
+    <Compile Include="DepartmentContext_Migrations\201701031908065_Added-Employee-HireDate.Designer.cs">
+      <DependentUpon>201701031908065_Added-Employee-HireDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="DepartmentContext_Migrations\Configuration.cs" />
     <Compile Include="Departments\DepartmentContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +77,9 @@
   <ItemGroup>
     <EmbeddedResource Include="DepartmentContext_Migrations\201701022048547_Initialize-DepartmentContext.resx">
       <DependentUpon>201701022048547_Initialize-DepartmentContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentContext_Migrations\201701031908065_Added-Employee-HireDate.resx">
+      <DependentUpon>201701031908065_Added-Employee-HireDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

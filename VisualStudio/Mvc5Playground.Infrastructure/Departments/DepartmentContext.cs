@@ -11,6 +11,11 @@ namespace Mvc5Playground.Infrastructure.Departments
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
 
+        void IDepartmentDataSource.Save()
+        {
+            SaveChanges();
+        }
+
         IQueryable<Employee> IDepartmentDataSource.Employees => Employees;
 
         IQueryable<Department> IDepartmentDataSource.Departments => Departments;

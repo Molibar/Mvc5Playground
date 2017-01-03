@@ -98,3 +98,5 @@ C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Web\bin\StructureM
 C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Web\bin\StructureMap.Web.xml
 C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Web\bin\Mvc5Playground.Infrastructure.dll
 C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Web\bin\Mvc5Playground.Infrastructure.pdb
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Web\bin\Microsoft.ApplicationInsights.TraceListener.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Web\bin\Microsoft.ApplicationInsights.TraceListener.xml
