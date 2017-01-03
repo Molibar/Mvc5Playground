@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Mvc5Playground")]
+[assembly: AssemblyTitle("Mvc5Playground.Web")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Mvc5Playground")]
+[assembly: AssemblyProduct("Mvc5Playground.Web")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("81180baa-d008-48a9-9727-588b7a0b7f70")]
+[assembly: Guid("97bb920d-7328-4165-8363-be7afdfec5d5")]
 
 // Version information for an assembly consists of the following four values:
 //

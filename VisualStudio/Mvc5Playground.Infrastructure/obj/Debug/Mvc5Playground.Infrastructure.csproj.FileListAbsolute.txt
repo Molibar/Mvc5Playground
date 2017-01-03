@@ -1,0 +1,14 @@
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\Mvc5Playground.Infrastructure.dll.config
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\Mvc5Playground.Infrastructure.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\Mvc5Playground.Infrastructure.pdb
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\Mvc5Playground.Core.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\Mvc5Playground.Core.pdb
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.pdb
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.DepartmentContext_Migrations.InitializeDepartmentContext.resources
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Infrastructure\obj\Debug\Mvc5Playground.Infrastructure.csproj.GenerateResource.Cache

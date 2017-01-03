@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Playground.Tests", "Mvc5Playground.Tests\Mvc5Playground.Tests.csproj", "{C6BA6731-90A2-41C5-BC37-656B3D9A2D37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Playground.Core", "Mvc5Playground.Core\Mvc5Playground.Core.csproj", "{75C8FC9A-9B05-46F4-8788-74D3AAE8AAD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Playground", "Mvc5Playground.Web\Mvc5Playground.csproj", "{343B4578-8B29-4E84-B660-E98C8BFEBD37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Playground.Web", "Mvc5Playground.Web\Mvc5Playground.Web.csproj", "{6535DD69-9749-4CFD-A413-54D2C5642293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Playground.Web.Tests", "Mvc5Playground.Web.Tests\Mvc5Playground.Web.Tests.csproj", "{C679E53D-5F25-4A71-9DF8-EF953A67E4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Playground.Infrastructure", "Mvc5Playground.Infrastructure\Mvc5Playground.Infrastructure.csproj", "{8D248602-6BBF-4729-A4B8-8B52190EEA7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C6BA6731-90A2-41C5-BC37-656B3D9A2D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6BA6731-90A2-41C5-BC37-656B3D9A2D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6BA6731-90A2-41C5-BC37-656B3D9A2D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6BA6731-90A2-41C5-BC37-656B3D9A2D37}.Release|Any CPU.Build.0 = Release|Any CPU
-		{343B4578-8B29-4E84-B660-E98C8BFEBD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{343B4578-8B29-4E84-B660-E98C8BFEBD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{343B4578-8B29-4E84-B660-E98C8BFEBD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{343B4578-8B29-4E84-B660-E98C8BFEBD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C8FC9A-9B05-46F4-8788-74D3AAE8AAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C8FC9A-9B05-46F4-8788-74D3AAE8AAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C8FC9A-9B05-46F4-8788-74D3AAE8AAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C8FC9A-9B05-46F4-8788-74D3AAE8AAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6535DD69-9749-4CFD-A413-54D2C5642293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6535DD69-9749-4CFD-A413-54D2C5642293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6535DD69-9749-4CFD-A413-54D2C5642293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6535DD69-9749-4CFD-A413-54D2C5642293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C679E53D-5F25-4A71-9DF8-EF953A67E4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C679E53D-5F25-4A71-9DF8-EF953A67E4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C679E53D-5F25-4A71-9DF8-EF953A67E4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C679E53D-5F25-4A71-9DF8-EF953A67E4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D248602-6BBF-4729-A4B8-8B52190EEA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D248602-6BBF-4729-A4B8-8B52190EEA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D248602-6BBF-4729-A4B8-8B52190EEA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D248602-6BBF-4729-A4B8-8B52190EEA7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

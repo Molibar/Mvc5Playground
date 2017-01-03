@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Mvc5Playground.Models;
+using Mvc5Playground.Web.Models;
 
-namespace Mvc5Playground.Controllers
+namespace Mvc5Playground.Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller

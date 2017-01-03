@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Mvc5Playground.Models;
+using Mvc5Playground.Web.Models;
 
-namespace Mvc5Playground
+namespace Mvc5Playground.Web
 {
     public partial class Startup
     {

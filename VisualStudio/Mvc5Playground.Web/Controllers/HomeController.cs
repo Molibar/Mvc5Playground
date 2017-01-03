@@ -1,16 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using Mvc5Playground.Core;
 
-namespace Mvc5Playground.Controllers
+namespace Mvc5Playground.Web.Controllers
 {
     public class HomeController : Controller
     {
+        private IDepartmentDataSource _db;
+
+        public HomeController(IDepartmentDataSource db)
+        {
+            _db = db;
+        }
+
         public ActionResult Index()
         {
-            return View();
+            var allDepartments = _db.Departments;
+            return View(allDepartments);
         }
 
         public ActionResult About()

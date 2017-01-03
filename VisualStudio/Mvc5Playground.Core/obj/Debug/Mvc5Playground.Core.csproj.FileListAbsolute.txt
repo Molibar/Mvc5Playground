@@ -1,0 +1,4 @@
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Core\bin\Debug\Mvc5Playground.Core.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Core\bin\Debug\Mvc5Playground.Core.pdb
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Core\obj\Debug\Mvc5Playground.Core.dll
+C:\Development\Git\Mvc5Playground\VisualStudio\Mvc5Playground.Core\obj\Debug\Mvc5Playground.Core.pdb

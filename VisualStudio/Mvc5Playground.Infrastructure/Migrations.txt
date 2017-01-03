@@ -1,0 +1,12 @@
+﻿
+
+Enable-Migrations -ContextTypeName Mvc5Playground.Infrastructure.Departments.DepartmentContext -MigrationsDirectory DepartmentContext_Migrations
+
+Add-Migration Initialize-DepartmentContext -ConfigurationTypeName Mvc5Playground.Infrastructure.DepartmentContext_Migrations.Configuration -Verbose
+Update-Database -ConfigurationTypeName Mvc5Playground.Infrastructure.DepartmentContext_Migrations.Configuration -Verbose -Script
+
+
+
+
+
+

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Mvc5Playground
+namespace Mvc5Playground.Web
 {
     public class RouteConfig
     {
